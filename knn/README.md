@@ -27,9 +27,9 @@
     ├── iris_annoy.ann        # Annoy index (optimized for speed)
     ├── y_train.pkl           # Training labels
     └── iris_knn.onnx         # ONNX model for edge devices
+```bash
 
----
-## 🚀 Quick Start
+## 📂 Repository Structure
 
 Prerequisites
 Python 3.9+
