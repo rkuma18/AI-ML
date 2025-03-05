@@ -14,8 +14,8 @@
 ---
 
 ## 📂 Repository Structure
-```bash
-.
+bash
+
 ├── docker-compose.yml        # Orchestrates API + monitoring stack
 ├── Dockerfile                # Builds the API container
 ├── prometheus.yml            # Configures Prometheus scraping
@@ -27,11 +27,14 @@
     ├── iris_annoy.ann        # Annoy index (optimized for speed)
     ├── y_train.pkl           # Training labels
     └── iris_knn.onnx         # ONNX model for edge devices
-```bash
 
-## 📂 Repository Structure
+🚀 Quick Start
 
 Prerequisites
 Python 3.9+
 
+Docker & Docker Compose
 
+(Optional) AWS CLI for ECR deployment
+
+Steps
