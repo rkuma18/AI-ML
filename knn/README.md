@@ -14,17 +14,17 @@
 ---
 
 ## 📂 Repository Structure
-'''bash
+```bash
+.
+├── docker-compose.yml
+├── Dockerfile
+├── prometheus.yml
+├── requirements.txt
+├── train_model.py
+├── app.py
+├── onnx_export.py
+└── models/
+    ├── iris_annoy_model.pkl
+    └── iris_knn.onnx
 
-├── docker-compose.yml        # Orchestrates API + monitoring stack
-├── Dockerfile                # Builds the API container
-├── prometheus.yml            # Configures Prometheus scraping
-├── requirements.txt          # Python dependencies
-├── train_model.py            # Trains model and builds Annoy index
-├── app.py                    # Flask API with prediction endpoint
-├── onnx_export.py            # Converts scikit-learn model to ONNX
-└── models/                   # Generated artifacts
-    ├── iris_annoy.ann        # Annoy index (optimized for speed)
-    ├── y_train.pkl           # Training labels
-    └── iris_knn.onnx         # ONNX model for edge devices
-
+a
