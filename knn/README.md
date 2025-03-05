@@ -23,9 +23,8 @@
 ├── train_model.py
 ├── app.py
 ├── onnx_export.py
-└── models/
-    ├── iris_annoy_model.pkl
-    └── iris_knn.onnx
+└── iris_annoy_model.pkl
+└── iris_knn.onnx
 
 ```
 ## 🚀 Quick Start
