@@ -28,8 +28,9 @@
     ├── y_train.pkl           # Training labels
     └── iris_knn.onnx         # ONNX model for edge devices
 
+---
+## 🚀 Quick Start
 
-##🚀 Quick Start
 Prerequisites
 Python 3.9+
 
