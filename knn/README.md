@@ -14,7 +14,7 @@
 ---
 
 ## 📂 Repository Structure
-bash
+'''bash
 
 ├── docker-compose.yml        # Orchestrates API + monitoring stack
 ├── Dockerfile                # Builds the API container
@@ -28,13 +28,3 @@ bash
     ├── y_train.pkl           # Training labels
     └── iris_knn.onnx         # ONNX model for edge devices
 
-🚀 Quick Start
-
-Prerequisites
-Python 3.9+
-
-Docker & Docker Compose
-
-(Optional) AWS CLI for ECR deployment
-
-Steps
